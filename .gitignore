@@ -1,0 +1,4 @@
+.gradle
+.idea
+/externals/remoting-server/build/
+/externals/remoting-client/build/
