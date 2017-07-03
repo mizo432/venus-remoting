@@ -1,0 +1,6 @@
+rootProject.name = 'venus-remoting'
+include ':remoting-server'
+project(':remoting-server').projectDir = file('./externals/remoting-server')
+
+include ':remoting-client'
+project(':remoting-client').projectDir = file('./externals/remoting-client')

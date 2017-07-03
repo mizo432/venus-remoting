@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+description = "remoting-framework for server"
+
+dependencies {
+    compile group: 'org.slf4j', name: 'slf4j-api', version: "${slf4jVersion}"
+    testRuntime group: 'ch.qos.logback', name: 'logback-core', version: "${logbackVersion}"
+    testRuntime group: 'ch.qos.logback', name: 'logback-classic', version: "${logbackVersion}"
+}
